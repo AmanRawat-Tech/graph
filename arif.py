@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+st.set_page_config(layout='wide')
 #################
 def plot_feature_by_msn(temp, msn_list, feature):
     mean_df=pd.read_excel("mean.xlsx")
